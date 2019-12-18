@@ -15,6 +15,6 @@ echo "You can use this section to install things."
 mkdir -p /code
 apt-get update -y
 apt-get install -y vim
-apt-get -y clean
+apt-get clean
 echo 'echo 'Hi there'' >> /code/hi_there.sh
 chmod u+x /code/hi_there.sh  
