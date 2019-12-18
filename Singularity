@@ -1,5 +1,5 @@
 Bootstrap:docker  
-From:ubuntu:16.04
+From:ubuntu:18.04
 
 %runscript
 echo "This gets run when you run the image!" 
