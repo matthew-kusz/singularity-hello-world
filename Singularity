@@ -5,4 +5,5 @@ From:ubuntu:16.04
 echo "This gets run when you run the image!" 
 
 %post  
-echo "This section happens once after bootstrap to build the image."  
+echo "This section happens once after bootstrap to build the image."
+echo "You can use this section to install things."
