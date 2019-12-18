@@ -7,7 +7,6 @@ export GREET_BASE
 
 %runscript
 echo "This gets run when you run the image!" 
-exec /bin/bash /code/hi_there.sh "$@"  
 
 %post  
 echo "This section happens once after bootstrap to build the image."
